@@ -40,7 +40,7 @@ async def quiz_1(message: types.Message):
         options=answers,
         is_anonymous=False,
         type='quiz',
-        correct_option_id=1,
+        correct_option_id=3,
         explanation='Все ответы правильные',
         open_period=20,
         reply_markup=markup
